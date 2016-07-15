@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.laptop.myapplication.Agenda">
+
+    <item
+        android:id="@+id/action_verwijder"
+        android:orderInCategory="100"
+        android:title="Verwijder Alles"
+        app:showAsAction="never" />
+</menu>

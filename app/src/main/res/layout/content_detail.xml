@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/atattractienaam"
+        android:text="attractienaam"
+        android:layout_alignTop="@+id/atNaam"
+        android:layout_alignStart="@+id/atTel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/atNaam"
+        android:text="attractie"
+        android:layout_alignStart="@+id/atAdres"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/atAdres"
+        android:text="adres"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/atPostcode"
+        android:text="postcode"
+        android:layout_alignStart="@+id/atAdres"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/atTel"
+        android:text="tel"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="94dp"
+        android:layout_above="@+id/atPostcode"
+        android:layout_toEndOf="@+id/atOmschrijving" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="omschrijving"
+        android:id="@+id/atOmschrijving"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/atTel"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="35dp" />
+
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="JA"-->
+        <!--android:id="@+id/jaButton"-->
+        <!--android:layout_below="@+id/confirmText"-->
+        <!--android:layout_alignStart="@+id/confirmText"-->
+        <!--android:layout_marginStart="37dp"-->
+        <!--android:layout_marginTop="23dp"-->
+        <!--android:background="#f1a1c4"-->
+        <!--android:textColor="#ffffff" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="NEE"-->
+        <!--android:id="@+id/neeButton"-->
+        <!--android:layout_marginEnd="63dp"-->
+        <!--android:layout_alignTop="@+id/jaButton"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:background="#f1a1c4"-->
+        <!--android:textColor="#ffffff" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="Weet je zeker dat je het wilt verwijderen?"-->
+        <!--android:id="@+id/confirmText"-->
+        <!--android:textSize="18dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Locatie">
+    <item
+        android:id="@+id/action_list"
+        android:orderInCategory="25"
+        android:title="Locatie Lijst"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_voegtoe"
+        android:orderInCategory="50"
+        android:title="Nieuwe Locatie"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

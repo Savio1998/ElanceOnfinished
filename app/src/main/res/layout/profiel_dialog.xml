@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ceNaam"
+        android:hint="Naam coachee"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/ceEmail"
+        android:hint="Email coachee"
+        android:layout_below="@+id/ceTel"
+        android:layout_alignLeft="@+id/ceTel"
+        android:layout_alignStart="@+id/ceTel"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/ceTel"
+        android:hint="Tel coachee"
+        android:layout_below="@+id/ceNaam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voeg Coachee Toe"
+        android:id="@+id/ceAdd"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/ceEmail"
+        android:layout_centerHorizontal="true"
+        android:onClick="populateprofiel" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Titel"
+        android:id="@+id/titleText"
+        android:padding="10dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Wat"
+        android:layout_below="@+id/titleText"
+        android:id="@+id/watText"
+        android:padding="10dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Doel"
+        android:padding="10dp"
+        android:layout_below="@+id/watText"
+        android:id="@+id/doelText"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Uitleg"
+        android:padding="10dp"
+        android:layout_below="@+id/doelText"
+        android:id="@+id/uitlegText"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vaardigheden"
+        android:padding="10dp"
+        android:layout_below="@+id/uitlegText"
+        android:id="@+id/vaardighedenText"
+        android:layout_alignParentLeft="true"/>
+
+</LinearLayout>

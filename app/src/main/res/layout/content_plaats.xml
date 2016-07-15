@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/nroozuwe"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/oost"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/centraal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/c"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_above="@+id/zuid"
+        android:layout_toEndOf="@+id/staddeelList" />
+
+    <android.support.design.widget.FloatingActionButton
+    android:id="@+id/noord"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:clickable="true"
+    android:src="@drawable/n"
+        android:layout_above="@+id/oost"
+        android:layout_toEndOf="@+id/west"
+        android:layout_marginBottom="31dp"
+        android:layout_marginLeft="-2dp"
+        android:visibility="invisible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/oost"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:src="@drawable/o"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/west"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-15dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/zuid"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:src="@drawable/z"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/west"
+        android:visibility="invisible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/west"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:src="@drawable/w"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView"
+        android:visibility="invisible"
+        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="-10dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/staddeelList"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Coachee" />
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/ic_menu_agenda"
+            android:title="Agenda" />
+        <item
+            android:id="@+id/nav_locaties"
+            android:icon="@drawable/ic_menu_locaties"
+            android:title="Locaties" />
+        <item
+            android:id="@+id/nav_activiteiten"
+            android:icon="@drawable/ic_menu_activiteiten"
+            android:title="Activiteiten" />
+        <item
+            android:id="@+id/nav_dagboek"
+            android:icon="@drawable/ic_menu_dagboek"
+            android:title="Dagboek" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

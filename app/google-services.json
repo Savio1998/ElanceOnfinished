@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "895561612422",
+    "firebase_url": "https://elance-app.firebaseio.com",
+    "project_id": "elance-app",
+    "storage_bucket": "elance-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895561612422:android:0072553d7dfecb32",
+        "android_client_info": {
+          "package_name": "com.example.laptop.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895561612422-2sfgc3dg282m23me4odma1704gddg43o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.laptop.myapplication",
+            "certificate_hash": "40E85B83CA6EA0021EB6FA2D61C952E31ED7903F"
+          }
+        },
+        {
+          "client_id": "895561612422-atifov7meqt5bu8pci18nauri8mcm0id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZz1jK2nvFfayX53gE_1ZRgNyKZ33ckkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895561612422-atifov7meqt5bu8pci18nauri8mcm0id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
