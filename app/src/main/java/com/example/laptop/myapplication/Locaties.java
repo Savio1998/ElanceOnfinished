@@ -122,12 +122,11 @@ public class Locaties extends AppCompatActivity
                             attractieLijst.add(attractie);
 
                         }
-                        attractieLijst.clear();
                         for (Attractie attractie : attractieLijst) {
                             attractie.getThema().equals(themas);
                             selectedList.add(attractie);
-                        }
-                        attractieLijst.clear();
+                    }
+                         attractieLijst.clear();
                         selectedList.clear();
                         for (Attractie attractie : selectedList) {
                             stadAdapter.add(attractie.getAttractienaam());

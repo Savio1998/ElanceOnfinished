@@ -1,0 +1,9 @@
+Profiel weergeeft items niet op start ga naar de drawer en click dan op profiel om de items te weergeven.
+
+Agenda/Locaties kan gegevens in database zetten maar niet weergeven
+
+Locaties kan nog niet goed filteren met Stadsdeel/Thema
+
+Geen Login
+
+Onafgemaakte activiteiten pagina

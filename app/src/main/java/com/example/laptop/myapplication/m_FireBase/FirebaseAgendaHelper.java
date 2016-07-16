@@ -4,6 +4,7 @@ package com.example.laptop.myapplication.m_FireBase;
  * Created by Sjoerdtje on 7/8/2016.
  */
 
+import com.example.laptop.myapplication.Models.Attractie;
 import com.example.laptop.myapplication.m_Model.Afspraak;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -54,9 +55,11 @@ public class FirebaseAgendaHelper {
         afspraken.clear();
         for (DataSnapshot ds : dataSnapshot.getChildren())
         {
-            Afspraak afspraak =ds.getValue(Afspraak.class);
-            afspraak.setKey(ds.getKey());
+            Afspraak afspraak = ds.getValue(Afspraak.class);
             afspraken.add(afspraak);
+//            Afspraak afspraak =ds.getValue(Afspraak.class);
+//            afspraak.setKey(ds.getKey());
+//            afspraken.add(afspraak);
         }
     }
 
@@ -71,7 +74,7 @@ public class FirebaseAgendaHelper {
             }
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-               fetchData(dataSnapshot);
+                fetchData(dataSnapshot);
             }
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {

@@ -8,10 +8,6 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-
-
-    <include layout="@layout/content_agenda" />
-
     <include
         layout="@layout/app_bar_agenda"
         android:layout_width="match_parent"

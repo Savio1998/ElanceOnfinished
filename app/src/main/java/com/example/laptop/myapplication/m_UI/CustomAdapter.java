@@ -41,7 +41,7 @@ public class CustomAdapter extends BaseAdapter{
     public View getView(int position, View convertView, ViewGroup parent) {
         if(convertView==null)
         {
-            convertView= LayoutInflater.from(c).inflate(R.layout.modelagenda,parent,false);
+            convertView= LayoutInflater.from(c).inflate(R.layout.modelagenda, parent,false);
         }
         TextView nameTxt= (TextView) convertView.findViewById(R.id.nameTxt);
         TextView propTxt= (TextView) convertView.findViewById(R.id.propellantTxt);

@@ -33,7 +33,7 @@ import java.util.ArrayList;
 public class Agenda extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     DatabaseReference db;
-    FirebaseAgendaHelper helperf;
+    FirebaseAgendaHelper helper;
     CustomAdapter adapter;
     ListView lv;
     EditText nameEditTxt, propTxt, descTxt;
@@ -59,11 +59,11 @@ public class Agenda extends AppCompatActivity
         //INITIALIZE FIREBASE DB
 
         db = FirebaseDatabase.getInstance().getReference();
-        helperf = new FirebaseAgendaHelper(db);
+        helper = new FirebaseAgendaHelper(db);
 
         //ADAPTER
 
-        adapter = new CustomAdapter(this, helperf.retrieve());
+        adapter = new CustomAdapter(this, helper.retrieve());
         lv.setAdapter(adapter);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -125,14 +125,14 @@ public class Agenda extends AppCompatActivity
 
                     //THEN SAVE
 
-                    if (helperf.save(s)) {
+                    if (helper.save(s)) {
 
                         //IF SAVED CLEAR EDITXT
 
                         nameEditTxt.setText("");
                         propTxt.setText("");
                         descTxt.setText("");
-                        adapter = new CustomAdapter(Agenda.this, helperf.retrieve());
+                        adapter = new CustomAdapter(Agenda.this, helper.retrieve());
                         lv.setAdapter(adapter);
 
                         Intent intent = getIntent();
